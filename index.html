@@ -10,13 +10,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>InstaCat</title>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="/js/scrollUp.js"></script>
     </head>
     <body>
         <header id="app-header">
             <h1>InstaCat</h1>
             <nav>
-                <button>Sign Up</button>
-                <button>Log In</button>
+                <button class="signUp">Sign Up</button>
+                <button class="login">Log In</button>
             </nav>
         </header>
         <main id="app-main">
@@ -28,14 +31,14 @@
             <section class="cat-post">
                 <article class="post-content">
                     <h2>Look at this cat!</h2>
-                    <img src="img/cat_1.jpg"/>
+                    <img src="img_copy/cat_1_copy.jpg"/>
                     <p>He is a good cat.</p>
                 </article>
                 <div class="post-social">
                     <span>48 Likes</span>
                     <button>Like</button>
                 </div>
-                <div class="post-comments">
+                <div class="post-comments first">
                     <ol class="comment-list">
                         <li>
                             <span class="user-name">
@@ -59,14 +62,14 @@
             <section class="cat-post">
                 <article class="post-content">
                     <h2>Attention Seeker</h2>
-                    <img src="img/cat_2.jpg"/>
+                    <img src="img_copy/cat_2_copy.jpg"/>
                     <p>I can haz loves?</p>
                 </article>
                 <div class="post-social">
                     <span>86 Likes</span>
                     <button>Like</button>
                 </div>
-                <div class="post-comments">
+                <div class="post-comments second">
                     <ol class="comment-list">
                         <li>
                             <span class="user-name">
@@ -84,14 +87,14 @@
             <section class="cat-post">
                 <article class="post-content">
                     <h2>Philoso-purr</h2>
-                    <img src="img/cat_3.jpg"/>
+                    <img src="img_copy/cat_3_copy.jpg"/>
                     <p>This kitty has so many thoughts</p>
                 </article>
                 <div class="post-social">
                     <span>72 Likes</span>
                     <button>Like</button>
                 </div>
-                <div class="post-comments">
+                <div class="post-comments third">
                     <ol class="comment-list">
                         <li>
                             <span class="user-name">
@@ -109,14 +112,14 @@
             <section class="cat-post">
                 <article class="post-content">
                     <h2>Intense cat</h2>
-                    <img src="img/cat_4.jpg"/>
+                    <img src="img_copy/cat_4_copy.jpg"/>
                     <p>I can see your soul</p>
                 </article>
                 <div class="post-social">
                     <span>9 Likes</span>
                     <button>Like</button>
                 </div>
-                <div class="post-comments">
+                <div class="post-comments fourth">
                     <ol class="comment-list">
                     </ol>
                     <form class="comment-form">
@@ -128,14 +131,14 @@
             <section class="cat-post">
                 <article class="post-content">
                     <h2>I can't even</h2>
-                    <img src="img/cat_5.jpg"/>
+                    <img src="img_copy/cat_5_copy.jpg"/>
                     <p>Morning just started and cat is already done</p>
                 </article>
                 <div class="post-social">
                     <span>128 Likes</span>
                     <button>Like</button>
                 </div>
-                <div class="post-comments">
+                <div class="post-comments fifth">
                     <ol class="comment-list">
                         <li>
                             <span class="user-name">
@@ -165,14 +168,14 @@
             <section class="cat-post">
                 <article class="post-content">
                     <h2>WHAAAAA?!?!</h2>
-                    <img src="img/cat_6.jpg"/>
+                    <img src="img_copy/cat_6_copy.jpg"/>
                     <p>Lil guy can't believe what he saw</p>
                 </article>
                 <div class="post-social">
                     <span>19 Likes</span>
                     <button>Like</button>
                 </div>
-                <div class="post-comments">
+                <div class="post-comments sixth">
                     <ol class="comment-list">
                         <li>
                             <span class="user-name">
@@ -199,6 +202,8 @@
                     </form>
                 </div>
             </section>
+
+            <a href="#" class="scrollUp"><i class="fa fa-long-arrow-up"></i></a>
         </main>
     </body>
 </html>

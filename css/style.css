@@ -4,3 +4,378 @@
  * If you create your own color palette, please list out the primary/secondary/tertiary
  * colors you made for reference, along with any other design brand decisions.
  */
+
+
+/*********** Color Scheme ***********/
+
+/*Primary Colors - #0bd790 #edecec #222222 #ffffff #f5f5f5*/
+/*Secondary Colors - #089a67 #9f9f9f #636363*/
+
+/************************************/
+
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,800');
+
+body {
+   margin: 0;
+   font-family: 'Nunito Sans', 'Helvetica Neue', sans-serif;
+   font-weight: 400;
+   color: #222;
+   font-size: 14px;
+   background: #f5f5f5;
+}
+
+#app-header {
+	margin: 0;
+    background: #edecec;
+    padding: 10px 25px;
+    height: 40px;
+    border-bottom: 1px solid #9f9f9f;
+}
+
+h1 {
+	margin-top: 0;
+	font-family: 'Nunito Sans', 'Helvetica Neue', sans-serif;
+	float: left;
+	color: #636363;
+	width: 40%;
+}
+
+h1, nav {display: inline-block;}
+
+nav {
+	float: right;
+    width: 60%;
+    text-align: right;
+} 
+
+button.signUp {
+	background: #0bd790;
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 600;
+    border: 0;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+button.login {
+	background: transparent;
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: #089a67;
+    font-size: 1.1em;
+    font-weight: 600;
+    border: 1px solid #089a67;
+    cursor: pointer;
+}
+
+button.signUp:hover {background: #089a67;}
+button.login:hover {border: 1px solid #0bd790;}
+
+/*============= end of header ==============*/
+
+#app-main {
+	
+}
+
+#app-main {
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 45px auto 25px;
+	padding: 0 35px;
+	justify-content: space-between;
+}
+
+#app-main > section.cat-post {
+	width: 30%;
+}
+
+section.cat-post {
+	background: #fff;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 50px;
+	box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.25);
+	border: 0.5px solid #b8b7b7;
+}
+
+article img {
+	width: 100%;  
+	height: auto;
+	border-radius: 4px;
+	position: relative;
+    z-index: 2;
+    top: -38px;
+    /*min-height: 275px;*/
+}
+
+h2 {
+	margin: 0;
+    position: relative;
+    top: 23px;
+    left: 0;
+    background: rgba(255, 255, 255, 0.85);
+    width: 55%;
+    padding: 5px 0 5px 10px;
+    z-index: 5;
+    color: #089a67;
+    font-weight: 600;
+    font-size: 1.6em;
+}
+
+article p {
+	margin: 0;
+    width: 65%;
+    position: relative;
+    top: -25px;
+    font-size: 1.1em;
+    color: #636363;
+    font-weight: 400;
+}
+
+article p, .post-social {display: inline-block;}
+.post-social {
+	float: right;
+    position: relative;
+    top: -45px;
+}
+
+.post-social span {
+	font-size: 0.813em;
+    border: 1px solid #0bd790;
+    padding: 2px 5px;
+    margin-right: -4px;
+    height: 15px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.post-social button {
+	background: #0bd790;
+    border: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 0.813em;
+    padding: 4px 17px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.post-social button:hover {
+	background: #089a67;
+}
+
+.first:before {
+	display: block;
+	content: "2 Comments";
+	font-size: 1.1em;
+	font-weight: 400;
+	border-bottom: 1px solid #9f9f9f;
+	padding-bottom: 2px;
+	margin-bottom: 7px;
+}
+
+.second:before {
+	content: "1 Comment";
+	display: block;
+	font-size: 1.1em;
+	font-weight: 400;
+	border-bottom: 1px solid #9f9f9f;
+	padding-bottom: 2px;
+	margin-bottom: 7px;
+}
+
+.third:before {
+	content: "1 Comment";
+	display: block;
+	font-size: 1.1em;
+	font-weight: 400;
+	border-bottom: 1px solid #9f9f9f;
+	padding-bottom: 2px;
+	margin-bottom: 7px;
+}
+
+.fourth:before {
+	content: "0 Comment";
+	display: block;
+	font-size: 1.1em;
+	font-weight: 400;
+	border-bottom: 1px solid #9f9f9f;
+	padding-bottom: 2px;
+	margin-bottom: 7px;
+}
+
+.fifth:before {
+	content: "3 Comment";
+	display: block;
+	font-size: 1.1em;
+	font-weight: 400;
+	border-bottom: 1px solid #9f9f9f;
+	padding-bottom: 2px;
+	margin-bottom: 7px;
+}
+
+.sixth:before {
+	content: "3 Comment";
+	display: block;
+	font-size: 1.1em;
+	font-weight: 400;
+	border-bottom: 1px solid #9f9f9f;
+	padding-bottom: 2px;
+	margin-bottom: 7px;
+}
+
+ol.comment-list	{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.comment-list li {
+	list-style-type: none;
+	border-bottom: 1px solid #edecec;
+	margin-bottom: 4px;
+}
+
+.comment-list span.user-name:before {
+	content: "\f0e5";
+	font-family: FontAwesome;
+	font-size: 1em;
+	display: inline-block;
+	color: #9f9f9f;
+}
+
+span.user-name {
+	font-weight: 600;
+    font-size: 1em;
+    color: #9f9f9f;
+}
+
+p.content {
+	padding-left: 19px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+form.comment-form {
+	padding-top: 20px;
+}
+
+textarea {
+	width: 98.5%;
+    min-height: 60px;
+    border: 1px solid #9f9f9f;
+    border-radius: 4px;
+}
+
+input[type="button"] {
+	border: 0;
+	border-radius: 4px;
+	padding: 8px 20px;
+    background: #0bd790;
+    color: #fff;
+    width: 100%;
+    margin: 10px auto 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+	background: #089a67;
+}
+
+a.scrollUp {
+	width: 45px;
+    background: #636363;
+    height: 45px;
+    color: #fff;
+    position: fixed;
+    bottom: 40px;
+    right: 0;
+    z-index: 30;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 8px 0 0;
+}
+
+/*========== Mediaqueriers ===========*/
+
+@media (min-width: 1200px) {
+
+	#app-main {
+		display: flex;
+	}
+
+	#app-main > section.cat-post {
+		width: 30%;
+		/*margin: 0 auto 40px;*/
+	}
+}
+
+@media (max-width: 950px) {
+
+	#app-main {
+		display: flex;
+	}
+
+	#app-main > section.cat-post {
+		width: 44%;
+		/*margin: 0 auto 40px;*/
+	}
+
+	h2 {
+		width: 80%;
+		font-size: 1.4em;
+	}
+}
+
+
+@media (max-width: 600px) {
+
+	#app-main {
+		display: block;
+	}
+
+	#app-main > section.cat-post {
+		width: 75%;
+		margin: 0 auto 40px;
+	}
+}
+
+
+@media (max-width: 480px) {
+
+	#app-header {height: auto;}
+
+	h1 {
+		width: 100%;
+        float: none;
+        margin: 5px auto;
+        text-align: center;
+	}
+
+	nav {
+		float: none;
+        width: 100%;
+        text-align: center;
+        margin: 10px auto;
+	}
+
+	#app-main {
+		display: block;
+	}
+
+	#app-main > section.cat-post {
+		width: 95%;
+		margin: 0 auto 40px;
+	}
+
+}
+
+
